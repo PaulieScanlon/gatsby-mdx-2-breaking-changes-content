@@ -1,2 +1,3 @@
-# mdx-2-breaking-content-changes
-Example repo with breaking content changes in MDX 2
+# gatsby-mdx-2-breaking-changes-content
+
+Example MDX 2 repo with breaking changes to content
