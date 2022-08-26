@@ -3,36 +3,17 @@ title: This is post one
 ---
 
 ## Breaking Changes
-The following characters need to be escaped.
 
-These will error
-```shell
-<
-{   
+Some of following characters need to be escaped or used with expressions.
+
+left angle bracket <
+
+left curly brace {
+
+<img src="http://some-image.jpg" alt="some-image" />
+
+<Icon />
+
+{mdx.field\_\_slug}.js
+
 <!-- Comment -->
-```
-
-
-When escaped, these will work
-```shell
-\<
-\{
-\<!-- Comment -->
-```
-
-... or use braces
-
-```shell
-{/* Comment */}
-```
-
-or, in some cases, expressions.
-
-```shell
-`'<'`
-`'{'`
-```
-
-
-
-

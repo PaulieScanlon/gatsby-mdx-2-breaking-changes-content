@@ -8,7 +8,8 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "serve": "gatsby serve",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext md,mdx"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,9 @@
     "gatsby-source-filesystem": "^4.21.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "eslint-plugin-mdx": "^2.0.2"
   }
 }
